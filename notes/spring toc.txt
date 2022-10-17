@@ -1,0 +1,28 @@
+=> Java8 (Collection API and lambdas )
+=> SOLID 
+=> JDBC and RDBMS concepts
+=> Hibernate
+
+
+Spring TOC
+----------------
+-> Spring core
+-> spring data
+		-> jdbc-template
+		-> orm (Hibernate)
+-> spring web mvc
+-> spring rest api
+
+spring boot
+---------------
+-> boot -core
+-> boot - aop
+-> boot - data( jdbc template and Data JPA)
+-> boot web mvc
+-> boot rest api
+-> case study on spring boot
+
+
+
+
+
