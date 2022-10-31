@@ -7,6 +7,18 @@ public class Product {
 	private double price;
 	private String description;
 
+	public Product() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Product(int id, String name, double price, String description) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.price = price;
+		this.description = description;
+	}
+
 	public int getId() {
 		return id;
 	}
