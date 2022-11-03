@@ -1,8 +1,4 @@
 package com.cts.ecart.dao;
-
-
-
-
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,7 +29,7 @@ public class ProductDaoLambdaImpl {
 	 }
 	 
 	 
-	 // CRUD operations
+	 // CRUD operationsa
 	 public void save(Product product) {
 		 jdbcTemplate.update("insert into product values(?,?,?,?)",product.getId(),product.getName(),product.getPrice(),product.getDescription());
 		 System.out.println("Record saved to database...");
